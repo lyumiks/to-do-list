@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+  outline: none;
+}
+
+body {
+  background: url("../assets/wallpaper_flowers.png");
+}
+
+.container {
+  background: #d5bdaf;
+  width: 500px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 100px auto auto;
+}
+
+.input-task {
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.button-add-task {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #f5ebe0;
+  font-size: 17px;
+  padding: 0 15px;
+  float: right;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button-add-task:hover {
+  opacity: 0.9;
+}
+
+.button-add-task:active {
+  opacity: 0.6;
+}
+
+.list-tasks {
+  width: 100%;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.task {
+  background-color: #e7d8c9;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.button-task-conclude {
+  border-color: #90a955;
+  border-width: 0.3px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #dde5b6;
+  cursor: pointer;
+  font-weight: 350;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.button-task-conclude:hover {
+  opacity: 1;
+}

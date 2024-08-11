@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body id="tete">
-    <div>
-      <input placeholder="Tarefas a fazer..." />
-      <button>Adicionar</button>
-      <ul>
-        <li><i class="fa-solid fa-check"></i>Estudar</li>
-      </ul>
+  <body id="my-tasks">
+    <div class="container">
+      <input class="input-task" placeholder="Minhas tarefas..." />
+      <button class="button-add-task">Adicionar</button>
+      <ul class="list-tasks"></ul>
     </div>
   </body>
   <script src="index.js"></script>
